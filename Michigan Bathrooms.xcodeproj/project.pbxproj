@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06CA8CAF2AF8C58700860978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CAE2AF8C58700860978 /* AppDelegate.swift */; };
+		06CA8CB12AF8C58700860978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CB02AF8C58700860978 /* SceneDelegate.swift */; };
+		06CA8CB32AF8C58700860978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CB22AF8C58700860978 /* ViewController.swift */; };
+		06CA8CB62AF8C58700860978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CA8CB42AF8C58700860978 /* Main.storyboard */; };
+		06CA8CB92AF8C58700860978 /* Michigan_Bathrooms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CB72AF8C58700860978 /* Michigan_Bathrooms.xcdatamodeld */; };
+		06CA8CBB2AF8C58900860978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06CA8CBA2AF8C58900860978 /* Assets.xcassets */; };
+		06CA8CBE2AF8C58900860978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06CA8CBC2AF8C58900860978 /* LaunchScreen.storyboard */; };
+		06CA8CC92AF8C58A00860978 /* Michigan_BathroomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CC82AF8C58A00860978 /* Michigan_BathroomsTests.swift */; };
+		06CA8CD32AF8C58A00860978 /* Michigan_BathroomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CD22AF8C58A00860978 /* Michigan_BathroomsUITests.swift */; };
+		06CA8CD52AF8C58A00860978 /* Michigan_BathroomsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CD42AF8C58A00860978 /* Michigan_BathroomsUITestsLaunchTests.swift */; };
+		06CA8CE22AF8C69200860978 /* bathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA8CE12AF8C69200860978 /* bathroom.swift */; };
+		06F373A12B30A9EB002548E4 /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F373A02B30A9EB002548E4 /* ViewControllerMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06CA8CC52AF8C58A00860978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CA8CA32AF8C58700860978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CA8CAA2AF8C58700860978;
+			remoteInfo = "Michigan Bathrooms";
+		};
+		06CA8CCF2AF8C58A00860978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CA8CA32AF8C58700860978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06CA8CAA2AF8C58700860978;
+			remoteInfo = "Michigan Bathrooms";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06CA8CAB2AF8C58700860978 /* Michigan Bathrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Michigan Bathrooms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA8CAE2AF8C58700860978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06CA8CB02AF8C58700860978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06CA8CB22AF8C58700860978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06CA8CB52AF8C58700860978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06CA8CB82AF8C58700860978 /* Michigan_Bathrooms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Michigan_Bathrooms.xcdatamodel; sourceTree = "<group>"; };
+		06CA8CBA2AF8C58900860978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06CA8CBD2AF8C58900860978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06CA8CBF2AF8C58900860978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06CA8CC42AF8C58A00860978 /* Michigan BathroomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Michigan BathroomsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA8CC82AF8C58A00860978 /* Michigan_BathroomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michigan_BathroomsTests.swift; sourceTree = "<group>"; };
+		06CA8CCE2AF8C58A00860978 /* Michigan BathroomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Michigan BathroomsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA8CD22AF8C58A00860978 /* Michigan_BathroomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michigan_BathroomsUITests.swift; sourceTree = "<group>"; };
+		06CA8CD42AF8C58A00860978 /* Michigan_BathroomsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Michigan_BathroomsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06CA8CE12AF8C69200860978 /* bathroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bathroom.swift; sourceTree = "<group>"; };
+		06F373A02B30A9EB002548E4 /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06CA8CA82AF8C58700860978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CC12AF8C58A00860978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CCB2AF8C58A00860978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CA8CA22AF8C58700860978 = {
+			isa = PBXGroup;
+			children = (
+				06CA8CAD2AF8C58700860978 /* Michigan Bathrooms */,
+				06CA8CC72AF8C58A00860978 /* Michigan BathroomsTests */,
+				06CA8CD12AF8C58A00860978 /* Michigan BathroomsUITests */,
+				06CA8CAC2AF8C58700860978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06CA8CAC2AF8C58700860978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06CA8CAB2AF8C58700860978 /* Michigan Bathrooms.app */,
+				06CA8CC42AF8C58A00860978 /* Michigan BathroomsTests.xctest */,
+				06CA8CCE2AF8C58A00860978 /* Michigan BathroomsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06CA8CAD2AF8C58700860978 /* Michigan Bathrooms */ = {
+			isa = PBXGroup;
+			children = (
+				06CA8CAE2AF8C58700860978 /* AppDelegate.swift */,
+				06CA8CB02AF8C58700860978 /* SceneDelegate.swift */,
+				06CA8CB22AF8C58700860978 /* ViewController.swift */,
+				06CA8CB42AF8C58700860978 /* Main.storyboard */,
+				06F373A02B30A9EB002548E4 /* ViewControllerMap.swift */,
+				06CA8CE12AF8C69200860978 /* bathroom.swift */,
+				06CA8CBA2AF8C58900860978 /* Assets.xcassets */,
+				06CA8CBC2AF8C58900860978 /* LaunchScreen.storyboard */,
+				06CA8CBF2AF8C58900860978 /* Info.plist */,
+				06CA8CB72AF8C58700860978 /* Michigan_Bathrooms.xcdatamodeld */,
+			);
+			path = "Michigan Bathrooms";
+			sourceTree = "<group>";
+		};
+		06CA8CC72AF8C58A00860978 /* Michigan BathroomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				06CA8CC82AF8C58A00860978 /* Michigan_BathroomsTests.swift */,
+			);
+			path = "Michigan BathroomsTests";
+			sourceTree = "<group>";
+		};
+		06CA8CD12AF8C58A00860978 /* Michigan BathroomsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06CA8CD22AF8C58A00860978 /* Michigan_BathroomsUITests.swift */,
+				06CA8CD42AF8C58A00860978 /* Michigan_BathroomsUITestsLaunchTests.swift */,
+			);
+			path = "Michigan BathroomsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06CA8CAA2AF8C58700860978 /* Michigan Bathrooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA8CD82AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan Bathrooms" */;
+			buildPhases = (
+				06CA8CA72AF8C58700860978 /* Sources */,
+				06CA8CA82AF8C58700860978 /* Frameworks */,
+				06CA8CA92AF8C58700860978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Michigan Bathrooms";
+			productName = "Michigan Bathrooms";
+			productReference = 06CA8CAB2AF8C58700860978 /* Michigan Bathrooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06CA8CC32AF8C58A00860978 /* Michigan BathroomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA8CDB2AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan BathroomsTests" */;
+			buildPhases = (
+				06CA8CC02AF8C58A00860978 /* Sources */,
+				06CA8CC12AF8C58A00860978 /* Frameworks */,
+				06CA8CC22AF8C58A00860978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CA8CC62AF8C58A00860978 /* PBXTargetDependency */,
+			);
+			name = "Michigan BathroomsTests";
+			productName = "Michigan BathroomsTests";
+			productReference = 06CA8CC42AF8C58A00860978 /* Michigan BathroomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06CA8CCD2AF8C58A00860978 /* Michigan BathroomsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06CA8CDE2AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan BathroomsUITests" */;
+			buildPhases = (
+				06CA8CCA2AF8C58A00860978 /* Sources */,
+				06CA8CCB2AF8C58A00860978 /* Frameworks */,
+				06CA8CCC2AF8C58A00860978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06CA8CD02AF8C58A00860978 /* PBXTargetDependency */,
+			);
+			name = "Michigan BathroomsUITests";
+			productName = "Michigan BathroomsUITests";
+			productReference = 06CA8CCE2AF8C58A00860978 /* Michigan BathroomsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CA8CA32AF8C58700860978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					06CA8CAA2AF8C58700860978 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					06CA8CC32AF8C58A00860978 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 06CA8CAA2AF8C58700860978;
+					};
+					06CA8CCD2AF8C58A00860978 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 06CA8CAA2AF8C58700860978;
+					};
+				};
+			};
+			buildConfigurationList = 06CA8CA62AF8C58700860978 /* Build configuration list for PBXProject "Michigan Bathrooms" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06CA8CA22AF8C58700860978;
+			productRefGroup = 06CA8CAC2AF8C58700860978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06CA8CAA2AF8C58700860978 /* Michigan Bathrooms */,
+				06CA8CC32AF8C58A00860978 /* Michigan BathroomsTests */,
+				06CA8CCD2AF8C58A00860978 /* Michigan BathroomsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06CA8CA92AF8C58700860978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA8CBE2AF8C58900860978 /* LaunchScreen.storyboard in Resources */,
+				06CA8CBB2AF8C58900860978 /* Assets.xcassets in Resources */,
+				06CA8CB62AF8C58700860978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CC22AF8C58A00860978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CCC2AF8C58A00860978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CA8CA72AF8C58700860978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA8CB32AF8C58700860978 /* ViewController.swift in Sources */,
+				06CA8CB92AF8C58700860978 /* Michigan_Bathrooms.xcdatamodeld in Sources */,
+				06CA8CAF2AF8C58700860978 /* AppDelegate.swift in Sources */,
+				06CA8CE22AF8C69200860978 /* bathroom.swift in Sources */,
+				06CA8CB12AF8C58700860978 /* SceneDelegate.swift in Sources */,
+				06F373A12B30A9EB002548E4 /* ViewControllerMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CC02AF8C58A00860978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA8CC92AF8C58A00860978 /* Michigan_BathroomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06CA8CCA2AF8C58A00860978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06CA8CD52AF8C58A00860978 /* Michigan_BathroomsUITestsLaunchTests.swift in Sources */,
+				06CA8CD32AF8C58A00860978 /* Michigan_BathroomsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06CA8CC62AF8C58A00860978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CA8CAA2AF8C58700860978 /* Michigan Bathrooms */;
+			targetProxy = 06CA8CC52AF8C58A00860978 /* PBXContainerItemProxy */;
+		};
+		06CA8CD02AF8C58A00860978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06CA8CAA2AF8C58700860978 /* Michigan Bathrooms */;
+			targetProxy = 06CA8CCF2AF8C58A00860978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06CA8CB42AF8C58700860978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CA8CB52AF8C58700860978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06CA8CBC2AF8C58900860978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06CA8CBD2AF8C58900860978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06CA8CD62AF8C58A00860978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06CA8CD72AF8C58A00860978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06CA8CD92AF8C58A00860978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Michigan Bathrooms/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-Bathrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06CA8CDA2AF8C58A00860978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Michigan Bathrooms/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-Bathrooms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06CA8CDC2AF8C58A00860978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-BathroomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Michigan Bathrooms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Michigan Bathrooms";
+			};
+			name = Debug;
+		};
+		06CA8CDD2AF8C58A00860978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-BathroomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Michigan Bathrooms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Michigan Bathrooms";
+			};
+			name = Release;
+		};
+		06CA8CDF2AF8C58A00860978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-BathroomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Michigan Bathrooms";
+			};
+			name = Debug;
+		};
+		06CA8CE02AF8C58A00860978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XFUR3T8U8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "umich.Michigan-BathroomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Michigan Bathrooms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06CA8CA62AF8C58700860978 /* Build configuration list for PBXProject "Michigan Bathrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA8CD62AF8C58A00860978 /* Debug */,
+				06CA8CD72AF8C58A00860978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CA8CD82AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan Bathrooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA8CD92AF8C58A00860978 /* Debug */,
+				06CA8CDA2AF8C58A00860978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CA8CDB2AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan BathroomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA8CDC2AF8C58A00860978 /* Debug */,
+				06CA8CDD2AF8C58A00860978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06CA8CDE2AF8C58A00860978 /* Build configuration list for PBXNativeTarget "Michigan BathroomsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CA8CDF2AF8C58A00860978 /* Debug */,
+				06CA8CE02AF8C58A00860978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06CA8CB72AF8C58700860978 /* Michigan_Bathrooms.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06CA8CB82AF8C58700860978 /* Michigan_Bathrooms.xcdatamodel */,
+			);
+			currentVersion = 06CA8CB82AF8C58700860978 /* Michigan_Bathrooms.xcdatamodel */;
+			path = Michigan_Bathrooms.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06CA8CA32AF8C58700860978 /* Project object */;
+}
